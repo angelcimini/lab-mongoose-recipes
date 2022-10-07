@@ -1,0 +1,56 @@
+ITERATION 2  
+
+<!-- Recipe.create({
+         title: "gintonic",
+         level: "Amateur Chef",
+         ingredients: [
+          "pepino peal",
+          "2 terrones azúcar",
+          "1 cucharada de salsa de soja",
+          "sal y pimienta",
+          "25cl hendrix",
+          "2 hielos",
+          "loncha naranja",
+          "2 semillas de cardamomo",
+          "1 pote de tomate frito",
+          "250 ml tónica"
+        ],
+        cuisine: "Mediterránea",
+        dishType: "breakfast",
+        image: "https://images.media-allrecipes.com/userphotos/720x405/815964.jpg",
+        duration: 10,
+        creator: "Barman HDP"
+    }) -->
+
+ITERATION 3 
+
+<!-- .then(() => {
+  return Recipe.insertMany(data)
+  })
+  .then((res)=>{
+    res.forEach((element) => {
+      console.log(element.title)
+    });
+  }) -->
+  
+ITERATION 4 
+
+<!-- Recipe.findOneAndUpdate({title: "Rigatoni alla Genovese"}, {duration: 100})
+    .then((res)=>{console.log(res)})
+    .catch((err)=>{console.log(err)}) -->
+
+ITERATION 5 
+
+<!-- .then(()=> {
+    Recipe.deleteOne({ title: "Carrot Cake" })
+    .then()
+  }) -->
+
+ITERATION 6
+
+<!-- process.on('SIGINT', ()=>{
+    mongoose.connection.close(()=>{
+        console.log("close!");
+        process.exit(0);
+    })
+}) -->
